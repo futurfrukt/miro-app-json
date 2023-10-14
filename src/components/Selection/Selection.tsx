@@ -40,7 +40,7 @@ export const Selection = () => {
     {
       Boolean(Object.keys(items).length)
         ? <button className={styles.button} onClick={handleClickDownload}>Download JSON</button>
-        : <div>Select cards on the boards to get JSON</div>
+        : <div>Select cards on the board to get JSON</div>
     }
     <textarea
       className={styles.text}
